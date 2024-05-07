@@ -3310,13 +3310,13 @@ p {
   animation: section-animation 3s infinite;
 }
 .section-title span.yellow-bg-big img {
-  bottom: 15px;
+  bottom: 5px;
   width: 120%;
   -webkit-animation: section-animation-2 3s infinite;
   animation: section-animation-2 3s infinite;
 }
 .section-title span.yellow-bg-sm img {
-  bottom: 10px;
+  bottom: 5px;
   width: 120%;
   -webkit-animation: section-animation-2 3s infinite;
   animation: section-animation-2 3s infinite;
@@ -3653,6 +3653,31 @@ div.t-header-sticky.sticky .main-menu-3 ul li.has-dropdown a::after {
 .header-white .sidebar-toggle-btn .line {
   background-color: #ffffff;
 }
+/* _______________________________________ */
+
+.header-color-manual
+{
+  color: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .cat-menu svg .cat-dot {
+  fill: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .cat-menu:hover {
+  color: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .cat-menu:hover svg .cat-dot {
+  fill: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .header-category::after {
+  background: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .main-menu ul li a {
+  color: hsl(210, 100.00%, 48.60%);
+}
+.header-color-manual .sidebar-toggle-btn .line {
+  background-color: hsl(210, 100.00%, 48.60%);
+}
+
 .header-category {
   position: relative;
   padding-left: 30px;
