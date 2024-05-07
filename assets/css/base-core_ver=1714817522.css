@@ -1583,8 +1583,20 @@ div.t-header-sticky.sticky .main-menu-3 ul li.has-dropdown a::after {
   background: transparent;
   line-height: 42px;
 }
+
+.sidebar-close-btn:hover {
+  border: 1px solid #0e1133;
+  width: 100px;
+  height: 40px;
+  border-radius: 5%;
+}
+
 .sidebar-close-btn:focus {
   border: 1px solid #0e1133;
+  width: 20px;
+  height: 20px;
+  border-radius: 5%;
+
 }
 .sidebar-close-btn span {
   transition: all 400ms cubic-bezier(0.4, 0.25, 0.3, 1.3) 100ms;
@@ -2421,6 +2433,7 @@ div.hero-thumb-sm img {
   -moz-border-radius: 10px;
   border-radius: 10px;
   text-transform: capitalize;
+  
 }
 .banner-item span.orange {
   background: #ff652e;
