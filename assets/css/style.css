@@ -3655,29 +3655,6 @@ div.t-header-sticky.sticky .main-menu-3 ul li.has-dropdown a::after {
 }
 /* _______________________________________ */
 
-.header-color-manual
-{
-  color: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .cat-menu svg .cat-dot {
-  fill: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .cat-menu:hover {
-  color: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .cat-menu:hover svg .cat-dot {
-  fill: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .header-category::after {
-  background: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .main-menu ul li a {
-  color: hsl(210, 100.00%, 48.60%);
-}
-.header-color-manual .sidebar-toggle-btn .line {
-  background-color: hsl(210, 100.00%, 48.60%);
-}
-
 .header-category {
   position: relative;
   padding-left: 30px;
@@ -14573,4 +14550,10 @@ body #buddypress input[type="submit"] {
   .tutor-cor-close {
     display: inline-flex;
   }
+}
+
+.container-svg
+{
+  cursor: pointer;
+  color: black;
 }
