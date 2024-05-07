@@ -14557,3 +14557,7 @@ body #buddypress input[type="submit"] {
   cursor: pointer;
   color: black;
 }
+
+#get-intouch{
+  margin-top: 5%;
+}
